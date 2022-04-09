@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1>Prediction of default</h1>
+        <form action="/" method="post">
+          <p>Please enter income amount:</p>
+          <p><input type="text" name="income"></p>
+          <p>Please enter age:</p>
+          <p><input type="text" name="age"></p>
+          <p>Please enter loan amount:</p>
+          <p><input type="text" name="loan"></p>
+          <p><input type="submit" value="Predict"</p>
+        </form>   
+    <p>Decision Tree Prediction: {{result1}}</p>
+    <p>RF Prediction: {{result2}}</p>
+    <p>XG Boost Prediction: {{result3}}</p>
+    <p>Logistic regression Prediction: {{result4}}</p>
+  </body>
+</html>
